@@ -13,7 +13,7 @@ public class Main {
             CounterParameter.count(firstParameter, secondParameter);
 
         }catch (InvalidParametersException e) {
-            System.err.println("O segundo parâmetro deve ser maior que o primeiro");
+            System.err.println(e.getMessage());
         }
     }
 }
