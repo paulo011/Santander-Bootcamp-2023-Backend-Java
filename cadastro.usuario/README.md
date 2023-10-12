@@ -26,5 +26,5 @@ mvn clean package
 ### depois execute o comando:
 
 ```cmd
-java -jar target/ApiCrmAluno-0.0.1-SNAPSHOT.jar
+java -jar target/cadastro.usuario-0.0.1-SNAPSHOT.jar
 ```
