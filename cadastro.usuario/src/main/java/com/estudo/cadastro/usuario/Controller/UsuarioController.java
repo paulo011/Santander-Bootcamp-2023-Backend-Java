@@ -2,7 +2,7 @@ package com.estudo.cadastro.usuario.Controller;
 
 import com.estudo.cadastro.usuario.DTO.UsuarioDTO;
 import com.estudo.cadastro.usuario.model.entity.Usuario;
-import com.estudo.cadastro.usuario.serviceImpl.UsuarioServiceImpl;
+import com.estudo.cadastro.usuario.model.service.UsuarioService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
@@ -13,7 +13,7 @@ import java.util.Map;
 
 public class UsuarioController {
     @Autowired
-    private UsuarioServiceImpl usuarioService;
+    private UsuarioService usuarioService;
 
     @PostMapping
     public void AdicionarUsuario(@RequestBody UsuarioDTO usuarioDTO){
